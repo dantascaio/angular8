@@ -174,7 +174,7 @@ export class JogoDaVelhaService {
   }
 
 
-  exibiro(posX: number, posY: number): boolean {
+  exibirO(posX: number, posY: number): boolean {
   	return this.tabuleiro[posX][posY] === this.O;
   }
 
@@ -195,7 +195,7 @@ export class JogoDaVelhaService {
   }
 
   novoJogo(): void {
-  	this.inicializar;
+  	this.inicializar();
   	this._showFinal = false;
   	this._showInicio = false;
   	this._showTabuleiro = true;
